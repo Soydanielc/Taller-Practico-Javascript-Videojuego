@@ -145,7 +145,7 @@ function gameWin(){
         localStorage.setItem('record', timePlayer)
     }
     console.log(recordTime, timePlayer);
-    return // location.reload();
+    return location.reload();
 }
 
 function showRecord(){
